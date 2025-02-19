@@ -1,17 +1,17 @@
-import { Inter } from "next/font/google";
+import { Inter, Anybody } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const anybody = Anybody({ subsets: ["latin"], weight: ["400"] }); // Add weights as needed
 
 export const metadata = {
-  title: "Devs Nest",
-  description: "Website to post your blog ",
+  title: "Upride template",
+  description: "Template for booking a lesson to learn to drive",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+     <body className={anybody.className}>{children}</body>
     </html>
   );
 }

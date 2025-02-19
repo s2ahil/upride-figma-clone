@@ -31,3 +31,10 @@ body {
     text-wrap: balance;
   }
 } */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;1,400&display=swap');
+
+.arimo-font {
+  font-family: 'Arimo', sans-serif;
+}
