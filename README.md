@@ -1,1 +1,2 @@
-# Nextjs-tailwind-js
+Livelink : https://upride-figma-clone.vercel.app/
+![image](https://github.com/user-attachments/assets/04479fee-7ac8-4440-a843-c564c36a2568)
